@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "130620067149",
+    "project_id": "foodora-45ee5",
+    "storage_bucket": "foodora-45ee5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130620067149:android:2ef1c3a08ce63e43adfb04",
+        "android_client_info": {
+          "package_name": "com.ishwortamang.foodora_riders_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130620067149-b0fkqu1j8ij5tf5j7h077f1mcimlr7f7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn8wRE_DCdbxhJIJ1rduNnT_zQl3vQ2XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130620067149-b0fkqu1j8ij5tf5j7h077f1mcimlr7f7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130620067149:android:584ff787de490941adfb04",
+        "android_client_info": {
+          "package_name": "com.ishwortamang.foodora_sellers_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130620067149-b0fkqu1j8ij5tf5j7h077f1mcimlr7f7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn8wRE_DCdbxhJIJ1rduNnT_zQl3vQ2XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130620067149-b0fkqu1j8ij5tf5j7h077f1mcimlr7f7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
