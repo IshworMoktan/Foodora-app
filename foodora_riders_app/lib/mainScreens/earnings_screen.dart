@@ -53,7 +53,7 @@ class _EarningsScreenState extends State<EarningsScreen> {
                 },
                 child: const Card(
                   color: Colors.white54,
-                  margin: EdgeInsets.symmetric(vertical: 40, horizontal: 140),
+                  margin: EdgeInsets.symmetric(vertical: 40, horizontal: 100),
                   child: ListTile(
                     leading: Icon(
                       Icons.arrow_back,
@@ -65,7 +65,7 @@ class _EarningsScreenState extends State<EarningsScreen> {
                       style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 16,
+                        fontSize: 15,
                       ),
                     ),
                   ),

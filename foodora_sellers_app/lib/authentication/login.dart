@@ -7,6 +7,7 @@ import 'package:foodora_sellers_app/mainScreens/home_screen.dart';
 import 'package:foodora_sellers_app/widgets/custom_text_field.dart';
 import 'package:foodora_sellers_app/widgets/error_dialog.dart';
 import 'package:foodora_sellers_app/widgets/loading_dialog.dart';
+import 'package:dcdg/dcdg.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

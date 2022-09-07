@@ -14,6 +14,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart' as fStorage;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:email_auth/email_auth.dart';
+import 'package:email_validator/email_validator.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({Key? key}) : super(key: key);
@@ -65,19 +66,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
         '${pMark.subThoroughfare} ${pMark.thoroughfare}, ${pMark.subLocality} ${pMark.locality}, ${pMark.subAdministrativeArea}, ${pMark.administrativeArea} ${pMark.postalCode}, ${pMark.country}';
 
     locationController.text = completeAddress;
-  }
-
-  void sendOTP() async {
-    EmailAuth emailAuth = new EmailAuth(sessionName: "Sample session");
-    bool result = await emailAuth.sendOtp(
-        recipientMail: emailController.value.text, otpLength: 5);
-    if (result) {
-      // using a void function because i am using a
-      // stateful widget and seting the state from here.
-      setState(() {
-        var submitValid = true;
-      });
-    }
   }
 
   Future<void> formValidation() async {
@@ -313,7 +301,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
               onPressed: () {
                 formValidation();
-                sendOTP();
               },
             ),
             const SizedBox(

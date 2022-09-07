@@ -1,16 +1,27 @@
+import 'package:geolocator/geolocator.dart';
+import'dart:math' as Math;
+
+
+
 class Sellers
 {
   String? sellerUID;
   String? sellerName;
   String? sellerAvatarUrl;
   String? sellerEmail;
+  double? lat;
+  double? lng;
 
   Sellers({
     this.sellerUID,
     this.sellerName,
     this.sellerAvatarUrl,
     this.sellerEmail,
+    this.lat,
+    this.lng,
   });
+
+
 
   Sellers.fromJson(Map<String, dynamic> json)
   {
@@ -18,7 +29,13 @@ class Sellers
     sellerName = json["sellerName"];
     sellerAvatarUrl = json["sellerAvatarUrl"];
     sellerEmail = json["sellerEmail"];
+    lat = json["lat"];
+    lng = json["lng"];
+
   }
+
+
+
 
   Map<String, dynamic> toJson()
   {
@@ -27,6 +44,10 @@ class Sellers
     data["sellerName"] = this.sellerName;
     data["sellerAvatarUrl"] = this.sellerAvatarUrl;
     data["sellerEmail"] = this.sellerEmail;
+    data["lat"] = this.lat;
+    data["lat"] = this.lng;
     return data;
   }
+
 }
+

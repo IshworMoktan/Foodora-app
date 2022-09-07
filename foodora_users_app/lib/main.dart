@@ -3,13 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:foodora_users_app/assistantMethods/address_changer.dart';
 import 'package:foodora_users_app/assistantMethods/cart_Item_counter.dart';
 import 'package:foodora_users_app/assistantMethods/total_amount.dart';
-import 'package:foodora_users_app/authentication/email_verify.dart';
+import 'package:foodora_users_app/mainScreens/home_screen.dart';
+
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'global/global.dart';
 import 'splashScreen/splash_screen.dart';
-
-
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -32,13 +31,15 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (c) => AddressChanger()),
       ],
       child: MaterialApp(
-        title: 'Riders App',
+        title: 'Users App',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const VerifyScreen(),
+        home: const MySplashScreen(),
       ),
     );
   }
 }
+
+

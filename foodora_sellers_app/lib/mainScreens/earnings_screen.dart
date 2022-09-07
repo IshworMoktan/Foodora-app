@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:foodora_sellers_app/global/global.dart';
 import 'package:foodora_sellers_app/splashScreen/splash_screen.dart';
+import 'package:dcdg/dcdg.dart';
 
 class EarningsScreen extends StatefulWidget {
   const EarningsScreen({Key? key}) : super(key: key);

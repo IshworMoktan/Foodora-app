@@ -13,12 +13,23 @@ class MapUtils {
     String mapOptions = [
       'saddr=$sourceLat,$sourceLng',
       'daddr=$destinationLat,$destinationLng',
-      //'dir_action = $navigate'
+      'dir_action = navigate'
     ].join('&');
 
-    final mapUrl = 'https://maps.google.com?$mapOptions';
+    final mapUrl = 'https://www.google.com/maps?$mapOptions';
 
-    await launchUrlString(mapUrl);
+     await launchUrlString(mapUrl);
+
+
+    // void _launchURLApp() async {
+    //   var mapUrl = Uri.parse("https://www.google.com/maps?$mapOptions");
+    //   if (await canLaunchUrl(mapUrl)) {
+    //     await launchUrl(mapUrl);
+    //   } else {
+    //     throw 'Could not launch $mapUrl';
+    //   }
+    // }
+
 
     // if (await canLaunchUrlString(mapUrl)) {
     //   await launchUrlString(mapUrl);

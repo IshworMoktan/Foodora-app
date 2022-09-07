@@ -149,7 +149,7 @@ class _ParcelDeliveringScreenState extends State<ParcelDeliveringScreen> {
                       "Show Delivery Drop-off Location",
                       style: TextStyle(
                         fontFamily: "Signatra",
-                        fontSize: 18,
+                        fontSize: 15,
                         letterSpacing: 2,
                       ),
                     ),

@@ -112,7 +112,7 @@ class _ParcelPickingScreenState extends State<ParcelPickingScreen> {
                       "Show Cafe/Restaurant Location",
                       style: TextStyle(
                         fontFamily: "Signatra",
-                        fontSize: 18,
+                        fontSize: 15,
                         letterSpacing: 2,
                       ),
                     ),

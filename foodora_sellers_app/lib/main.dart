@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:foodora_sellers_app/global/global.dart';
 import 'package:foodora_sellers_app/splashScreen/splash_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:dcdg/dcdg.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

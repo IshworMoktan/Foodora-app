@@ -45,10 +45,13 @@ dependencies:
   shared_preferences: ^2.0.15
   url_launcher: ^6.1.2
   email_auth: 1.0.0
+  dcdg: ^4.0.1
+  email_validator: ^2.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  url_launcher: ^6.1.2
 
 
 

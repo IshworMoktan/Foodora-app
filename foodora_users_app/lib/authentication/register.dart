@@ -211,6 +211,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     isObsecre: true,
                   ),
                 ],
+
               ),
             ),
             const SizedBox(
@@ -230,6 +231,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
               ),
               onPressed: () {
                 formValidation();
+
+
               },
             ),
             const SizedBox(

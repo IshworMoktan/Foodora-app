@@ -3,11 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'global/global.dart';
 import 'splashScreen/splash_screen.dart';
+import 'package:dcdg/dcdg.dart';
 
-
-
-Future<void> main() async
-{
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   sharedPreferences = await SharedPreferences.getInstance();
@@ -15,8 +13,6 @@ Future<void> main() async
 
   runApp(const MyApp());
 }
-
-
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -33,5 +29,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
